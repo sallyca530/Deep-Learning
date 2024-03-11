@@ -40,7 +40,7 @@ The initial neural network model, a two-layer architecture with specific paramet
 
 ![](images/model_accuracy.png)
 
-Model Accuracy - 72.5%
+**Model Accuracy - 72.5%**
 
 Were you able to achieve the target model performance?
 
@@ -56,14 +56,14 @@ This model was not able to acheive the target of 75% accuracy.
 
 ![](images/Opt_1_accuracy.png)
 
-##### Accuracy = 72.65% (almost no change)
+#### **Accuracy = 72.65% (almost no change)**
 
 ### Optimization 2 - Adjust the number number of layers
 ![](images/Opt_2.png)
 
     i. Add third layer with same nodes as second layer in Optimization 1.
 
-##### Accuracy = 72.44% (almost no change)
+#### **Accuracy = 72.44% (almost no change)**
 
 ![](images/Opt_2_accuracy.png)
 
@@ -75,8 +75,10 @@ This model was not able to acheive the target of 75% accuracy.
 
 ![](images/Opt_3_accuracy.png)
 
-##### Accuracy = 72.45% (almost no change)
+#### **Accuracy = 72.45% (almost no change)**
 
 ## Summary 
-The overall results show that the attempts to improve the model through optimization were minimal at best, and they did not reach the target of 75% accuracy. Although all the accuracy results were similar, the neural network that had the highest accuracy was Optimization 1 and this would be the recommended model to use with this dataset.
+The overall results show the attempts to improve the model through optimization were minimal at best, and they did not reach the target of 75% accuracy. Although all the accuracy results were similar, the neural network that had the highest accuracy was Optimization 1 and this would be the recommended model to use with this dataset. 
+
+Further work could clarify the neccessary architechure of the neural network using    'keras_tuner' to find the best hyperparameters for best fit.
 
